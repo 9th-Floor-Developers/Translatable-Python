@@ -33,7 +33,7 @@ You don't need to "install" anything special. Just make sure you have Python 3 (
     python lang.py script.tpy dict.csv
     ```
 
-## Example
+## Examples
 
 1. `lang.csv` (Example):
 	```csv
@@ -63,3 +63,7 @@ You don't need to "install" anything special. Just make sure you have Python 3 (
 	```text
 	Hello World
 	```
+
+### Text Editor Example (Russian)
+
+<img src="images/russian-python.png">
