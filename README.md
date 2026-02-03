@@ -27,10 +27,10 @@ You don't need to "install" anything special. Just make sure you have Python 3 (
 2.  **File Input:**
 
     Create a `.tpy` file containing your translatable code (e.g., `example.tpy`). Then, run the compiler with the 
-    filename as an argument:
+    file path, and the dictionary path as command line arguments:
 
     ```bash
-    python lang.py example.tpy
+    python lang.py script.tpy dict.csv
     ```
 
 ## Example
@@ -56,7 +56,7 @@ You don't need to "install" anything special. Just make sure you have Python 3 (
 
 3. Run It:
 	```bash
-	python lang.py hello.tpy
+	python lang.py hello.tpy dict.csv
 	```
 
 4. Output:

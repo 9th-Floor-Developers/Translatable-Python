@@ -57,7 +57,8 @@ def get_translations() -> dict[str, str]:
 	
 	translations: dict[str, str] = {}
 	
-	with open('lang.csv', encoding='utf-8', newline='') as f:
+	# second command line argument is a dictionary path
+	with open(sys.argv[2], encoding='utf-8', newline='') as f:
 		reader = csv.reader(f)
 		for row in reader:
 			translations[row[0]] = row[1]
@@ -109,7 +110,7 @@ def run_program(program: str) -> None:
 def main() -> None:
 	"""Main function: handles file input."""
 	
-	if len(sys.argv) == 1:
+	if len(sys.argv) < 3:
 		raise IOError('Must Provide Additional Arguments')
 	
 	# Read code from file
@@ -123,7 +124,7 @@ def main() -> None:
 	
 	python_program = translate_program(code)
 	
-	if len(sys.argv) == 2:
+	if len(sys.argv) == 3:
 		run_program(python_program)
 		return
 	
