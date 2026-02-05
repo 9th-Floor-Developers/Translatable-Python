@@ -1,0 +1,30 @@
+None,لا شئ
+int,عدد صحيح
+float,يطفو
+str,خيط
+bool,حمام سباحة
+True,الحقّ
+False,زائف
+if,لو
+elif,وإلا إذا
+else,آخر
+while,بينما
+break,كسر
+continue,واصل
+for, ل
+return,إرجاع
+print,ﻃَﺒَﻊَ
+input,إدخال
+match,تطابق
+case,حالة
+try,محاولة
+except,استثناء
+raise,رفع
+class,فئة
+self,ذات
+def,تعريف
+ in, في
+range,نطاق
+ not , ليس
+ and , و
+ or , أو
