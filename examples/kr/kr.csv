@@ -1,0 +1,30 @@
+None,무
+int,정수
+float,소수
+str,글자
+bool,논리형
+True,참
+False,거짓
+if,만약
+elif,아니면이라면
+else,아니면
+while,와중에
+break,탈출
+continue,연속
+for,위한
+return,귀환
+print,출력
+input,입력
+match,일치
+case,경우
+try,시도
+except,제외
+raise,발생
+class,계층
+self,속성
+def,정의
+ in, 안
+range,범위
+ not , 아님
+ and , 그리고
+ or , 혹은
