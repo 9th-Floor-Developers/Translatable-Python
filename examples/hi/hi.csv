@@ -1,0 +1,30 @@
+None,कुछ नहीं
+int,गिनती_संख्या
+float,दशमलव_संख्या
+str,शब्द
+bool,सही_गलत
+True,सही
+False,गलत
+if,अगर
+elif,वरना_अगर
+else,वरना
+while,जबतक
+break,तोड़ो
+continue,जारी_रखो
+for,हर_एक_के_लिए
+return,वापस_दो
+print,दिखाओ
+input,लो
+match,मिलाओ
+case,हालत
+try,कोशिश
+except,अगर_गलती_हो
+raise,गलती_फेंको
+class,ढांचा
+self,खुद
+def,बनाओ
+ in, में
+range,हद
+ not , नहीं
+ and , और
+ or , या
