@@ -87,8 +87,8 @@ def translate_program(program: str) -> str:
 	translations: dict[str, str] = get_translations()
 	
 	for py_word in translations.keys():
-		pattern = re.escape(translations[py_word])
-		program = re.sub(pattern, replacer, program)
+		pattern: str = re.escape(translations[py_word])
+		program: str = re.sub(pattern, replacer, program)
 	
 	return program
 
@@ -114,7 +114,7 @@ def main() -> None:
 		raise IOError('Must Provide Additional Arguments')
 	
 	# Read code from file
-	filename = sys.argv[1]
+	filename: str = sys.argv[1]
 	
 	if not filename.endswith('.tpy'):
 		raise FileNotFoundError('Your Chosen File Is Not A .tpy File')
@@ -122,7 +122,7 @@ def main() -> None:
 	with open(filename, 'r', encoding='utf-8') as f:
 		code = f.read()
 	
-	python_program = translate_program(code)
+	python_program: str = translate_program(code)
 	
 	if len(sys.argv) == 3:
 		run_program(python_program)

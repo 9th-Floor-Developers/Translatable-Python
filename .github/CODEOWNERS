@@ -1,10 +1,10 @@
 # Russian/Gen Alpha Examples, Documentation
 examples/ru/*   @CalciumKing
 examples/gen_alpha/* @CalciumKing
-lang.csv        @CalciumKing
+template_dict.csv    @CalciumKing
 README.md       @CalciumKing
-CONTRIBUTING.md @CalciumKing
 .github/*       @CalciumKing
+images/*        @CalciumKing
 LICENSE         @CalciumKing
 
 # Thai Examples, Debugger File
@@ -13,3 +13,8 @@ debug/*         @petepoop
 
 # Compiler is co-owned
 lang.py         @CalciumKing @petepoop
+
+# Misc. Language Examples
+examples/ar/*   @fredtheonlychild
+examples/hi/*   @CodingSkywalker
+examples/kr/*   @Petmaster123

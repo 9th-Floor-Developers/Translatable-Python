@@ -8,6 +8,14 @@ code.
 
 This project also has the potential to translate any language supported by UTF-8 into valid python code.
 
+## Language Examples Provided
+ - Russian
+ - Thai
+ - Korean
+ - Standard Arabic
+ - Hindi
+ - Gen Alpha (English)
+
 ## Installation
 
 You don't need to "install" anything special. Just make sure you have Python 3 (preferably 3.10 or later, for 
@@ -35,7 +43,9 @@ You don't need to "install" anything special. Just make sure you have Python 3 (
 
 ## Examples
 
-1. `lang.csv` (Example):
+### Keyword Replacement Process
+
+1. `dict.csv`:
 	```csv
 	def,myfunc
 	return,sendback
@@ -45,7 +55,7 @@ You don't need to "install" anything special. Just make sure you have Python 3 (
 	```
 
 2. Custom Code (hello.tpy):
-	```text
+	```py
 	myfunc greet(name) {
 	    say("Hello " + name)
 	    sendback "done"
